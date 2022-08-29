@@ -15,18 +15,18 @@
   /* Font Size */
   --font-large: 48px;
   --font-medium: 28px;
-  --font-regular: 18px;
-  --font-small: 16px;
-  --font-micro: 14px;
+  --font-regular: 16px;
+  --font-small: 14px;
+  --font-micro: 12px;
 
   /* Font weight */
   --fweight-bold: 700;
   --fweight-semi-bold: 600;
-  --fweight-semi-semi-bold: 500;
+  --fweight-medium: 500;
   --fweight-regular: 400;
-  --fweight-semi-regular: 300;
-  --fweight-thin: 200;
-  --fweight-very-thin: 100;
+  --fweight-light: 300;
+  --fweight-extra-light: 200;
+  --fweight-thin: 100;
 
   /* Size */
 }
@@ -35,4 +35,30 @@
 * {
   box-sizing: borderbox;
   font-family: 'Gothic A1', sans-serif;
+}
+
+/* Typography */
+h1{
+  font-size: var(--font-large);
+  font-weight: var(--fweight-semi-bold);
+  color: var(--color-black);
+  margin: 16px 0;
+}
+h2{
+  font-size: var(--font-medium);
+  font-weight: var(--fweight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+h3{
+  font-size: var(--font-regular);
+  font-weight: var(--fweight-light);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+p{
+  font-size: var(--font-regular);
+  font-weight: var(--fweight-extra-light);
+  color: var(--color-black);
+  margin: 8px 0;
 }
