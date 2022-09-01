@@ -100,12 +100,12 @@ p {
   justify-content: space-between;
   align-items: center;
   background: transparent;
-  padding: 10px;
   transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 #navbar.navbar--dark {
   background-color: var(--color-light-white);
-  padding: 5px;
+  padding: 1px;
 }
 .navbar__logo {
   display: flex;
