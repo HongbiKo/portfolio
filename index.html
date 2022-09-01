@@ -169,36 +169,50 @@
 		<h1>My work</h1>
 		<h3>Projects</h3>
 		<div class="work__categories">
-			<button class="category__btn active">
+			<button class="category__btn active" data-filter="*">
+				All
+				<span class="category__count">4</span>
+			</button>
+			<button class="category__btn" data-filter="webpage">
 				Webpage
 				<span class="category__count">2</span>
 			</button>
-			<button class="category__btn">
+			<button class="category__btn" data-filter="game">
 				Game
 				<span class="category__count">1</span>
 			</button>
-			<button class="category__btn">
+			<button class="category__btn" data-filter="react">
 				React
-				<span class="category__count">1</span>
-			</button>
-			<button class="category__btn">
-				..
 				<span class="category__count">1</span>
 			</button>
 		</div>
 		<div class="work__projects">
-			<a href="" class="project" target="blank">
+			<a href="" class="project" target="blank" data-type="webpage">
 				<img src="" alt="webpage1" class="project__img">
 				<div class="project__description">
 					<h3>Webpage</h3>
 					<span>Clone coding with html and css...</span>
 				</div>
 			</a>
-			<a href="" class="project" target="blank">
+			<a href="" class="project" target="blank" data-type="webpage">
 				<img src="" alt="webpage1" class="project__img">
 				<div class="project__description">
 					<h3>Webpage</h3>
 					<span>Clone coding with html and css...</span>
+				</div>
+			</a>
+			<a href="" class="project" target="blank" data-type="game">
+				<img src="" alt="game" class="project__img">
+				<div class="project__description">
+					<h3>Game</h3>
+					<span>Clone coding</span>
+				</div>
+			</a>
+			<a href="" class="project" target="blank" data-type="react">
+				<img src="" alt="react" class="project__img">
+				<div class="project__description">
+					<h3>React project</h3>
+					<span>Clone coding</span>
 				</div>
 			</a>
 		</div>
