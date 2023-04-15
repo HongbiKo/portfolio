@@ -59,6 +59,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 /* Typography */
@@ -132,6 +133,9 @@ p {
   font-weight: var(--fweight-thin);
   cursor: pointer;
   border-radius: var(--size-border-radius);
+}
+.navbar__menu__item.active{
+  background-color: #f8f8f8;
 }
 
 .navbar__menu__item:hover{
@@ -292,6 +296,9 @@ p {
 }
 .fa-square-github {
   color: #444;
+}
+.fa-react {
+  color: #5ed4f2;
 }
 .skill__description,
 .tools__list > li,
@@ -472,6 +479,30 @@ p {
 /* Responsive */
 /* For below 768px screen width*/
 @media screen and (max-width: 768px) {
+
+  :root {
+     /* Font Size */
+  --font-large: 30px;
+  --font-medium: 20px;
+  --font-middle: 18px;
+  --font-regular: 16px;
+  --font-small: 14px;
+  --font-micro: 12px;
+  }
+  .section {
+    padding: 20px;
+    padding-top: 50px;
+  }
+  p {
+    text-align: initial;
+  }
+  .arrow-up {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    right: 20px;
+  }
   /* Navbar */
   .navbar__toggle-btn {
     display: block;
