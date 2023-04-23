@@ -80,6 +80,7 @@ h3 {
   font-weight: var(--fweight-semi-bold);
   color: var(--color-black);
   margin: 40px 0 16px;
+  text-align: center;
 }
 h4 {
   font-size: var(--font-middle);
@@ -376,6 +377,10 @@ p {
   height: 100%;
   max-width: 100%;
   max-height: 100%; 
+}
+.webpage {
+  background: url(./imgs/webpage.png) 50% 50% no-repeat;
+  background-size: cover;
 }
 .jjangGame{
   background: url(./imgs/jjangGame.png) center center no-repeat;

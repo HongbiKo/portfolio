@@ -10,6 +10,7 @@ document.addEventListener("scroll", () => {
     navbar.classList.remove("navbar--dark");
   }
 });
+// scrollY = pageYOffset (스크롤값)
 
 // Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector(".navbar__menu");
