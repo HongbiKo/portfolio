@@ -289,6 +289,9 @@ p {
 .fa-js {
   color: rgb(248, 216, 8);
 }
+.fa-react {
+  color: #5ed4f2;
+}
 .fa-paintbrush {
   color: rgb(112 126 255);
 }
@@ -298,9 +301,9 @@ p {
 .fa-square-github {
   color: #444;
 }
-.fa-react {
-  color: #5ed4f2;
+.fa-n { color:rgb(0, 0, 0);
 }
+
 .skill__description,
 .tools__list > li,
 .etc__list{
@@ -309,7 +312,7 @@ p {
 }
 .skill__description:hover i,
 .tools__list > li:hover i,
-.etc__list:hover i {
+.etc__list > li:hover i {
   transform: rotate(-15deg) scale(1.2);
 }
 
@@ -396,6 +399,11 @@ p {
 }
 .shoppingList {
   background: url(./imgs/shoppinglist.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.youtube {
+  background: url(./imgs/youtube.png) 0 50% no-repeat;
   background-size: cover;
 }
 .project__description {
